@@ -4,18 +4,20 @@
 
 .box {
     
+    color: #777;
+
     div {
         float: left;
     }
 
     .win-loss {
-        border: 1px solid #BBB;
+        border: 1px solid #EEE;
     }
 
     .heading {
         .col1 {
-            border-bottom: 1px solid #BBB;
-            background: lighten(#EFEFEF, 2%);
+            border-bottom: 1px solid #EEE;
+            background: #bdc3c7;
         }
     }
     
@@ -32,7 +34,7 @@
     }
 
     .col1, .col3, .colh {
-        background: #EFEFEF;
+        background: #ecf0f1;
         padding: 5px 0 5px 10px;
     }
 }
