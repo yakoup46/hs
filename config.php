@@ -9,3 +9,9 @@ foreach ($configs as $type => $config) {
     }
 
 }
+
+function debug($info) {
+    echo '<pre>';
+    print_r($info);
+    echo '</pre>';
+}

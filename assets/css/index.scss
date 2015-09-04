@@ -1,0 +1,38 @@
+.clear {
+    clear: both;
+}
+
+.box {
+    
+    div {
+        float: left;
+    }
+
+    .win-loss {
+        border: 1px solid #BBB;
+    }
+
+    .heading {
+        .col1 {
+            border-bottom: 1px solid #BBB;
+            background: lighten(#EFEFEF, 2%);
+        }
+    }
+    
+    .col1 {
+        width: 75px;
+    }
+
+    .col3 {
+        width: 194px;
+    }
+
+    .colh {
+        width: 90px;
+    }
+
+    .col1, .col3, .colh {
+        background: #EFEFEF;
+        padding: 5px 0 5px 10px;
+    }
+}

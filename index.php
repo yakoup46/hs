@@ -11,4 +11,4 @@ if (!is_null($routes->badArg)) {
     exit;
 }
 
-(new $routes->controller)->{$routes->method}();
+(new $routes->controller)->{$routes->method}($routes->args);
