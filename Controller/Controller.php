@@ -31,7 +31,7 @@ class Controller {
             $url = str_replace('{' . $key . '}', $val, $url);
         }
 
-        $url = "https://na.api.pvp.net" . $url . "?api_key=" . App_ApiKey;
+        $url = "https://na.api.pvp.net" . $url . "?beginIndex=" . $data['beginIndex'] . "&endIndex=" . $data['endIndex'] . "&api_key=" . App_ApiKey;
 
         return $url;
     }

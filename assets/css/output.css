@@ -1,23 +1,40 @@
+* {
+  font-family: 'Roboto'; }
+
 .clear {
   clear: both; }
 
 .box {
+  float: left;
+  padding: 5px;
+  background: #EEE;
+  border-radius: 2px;
+  border: 1px solid #CDCDCD;
+  box-shadow: inset 0 0 3px #CCC;
   color: #777; }
+  .box .label {
+    border: 1px solid #AAA;
+    border-radius: 2px;
+    padding: 4px 0;
+    background: #FFF;
+    margin: 2px;
+    width: 80px;
+    text-align: center; }
+    .box .label.large {
+      width: 166px; }
+  .box .green {
+    background: #01ff01;
+    color: #000; }
+  .box .red {
+    background: #ff4d4d;
+    color: #000; }
+  .box .win-loss, .box .creep, .box .stats {
+    background: #DDD;
+    padding: 4px;
+    border: 1px solid #FFF;
+    border-radius: 4px;
+    margin: 2px; }
   .box div {
     float: left; }
-  .box .win-loss {
-    border: 1px solid #EEE; }
-  .box .heading .col1 {
-    border-bottom: 1px solid #EEE;
-    background: #bdc3c7; }
-  .box .col1 {
-    width: 75px; }
-  .box .col3 {
-    width: 194px; }
-  .box .colh {
-    width: 90px; }
-  .box .col1, .box .col3, .box .colh {
-    background: #ecf0f1;
-    padding: 5px 0 5px 10px; }
 
 /*# sourceMappingURL=output.css.map */
